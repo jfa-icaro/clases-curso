@@ -67,11 +67,11 @@ let agregarMayoriaDeEdadConArrowFunction = (persona, i, array) => {
 	console.log(array[i]);
 };
 
-let personass = personas.forEach(agregarMayoriaDeEdad);
+let personas1 = personas.forEach(agregarMayoriaDeEdad);
 
 // utilizando forEach con funcion anonima adentro
 
-let personass = personas.forEach((persona, i, personas) => {
+let personas2 = personas.forEach((persona, i, personas) => {
 	personas[i] = {
 		...persona,
 		esMayorDeEdad: null,
@@ -82,7 +82,9 @@ let personass = personas.forEach((persona, i, personas) => {
 
 // utilizando map
 
-let personasModificadas = personas.map((persona) => {
+let personas3 = personas.map((persona) => {
+	// usando if
+
 	if (persona.edad > 18) {
 		persona = {
 			...persona,
