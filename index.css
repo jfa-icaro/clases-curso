@@ -1,0 +1,44 @@
+html {
+}
+
+body {
+	min-height: 100vh;
+	background-color: #444;
+	margin: 0;
+}
+
+.container {
+	background-color: blue;
+}
+
+h1 {
+	margin: 10px;
+	padding: 50px;
+	color: #fff;
+	background-color: red;
+	box-sizing: border-box;
+	text-decoration: line-through;
+	text-transform: capitalize;
+}
+
+h2 {
+	background-color: #000;
+	color: #fff;
+}
+
+p {
+	/* width: 40%; */
+	box-sizing: border-box;
+
+	/* background-image: url(img/juan-foto.jpg); */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: 2px solid greenyellow;
+	padding: 10px;
+	text-align: justify;
+	color: #fff;
+	font-weight: 500;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
