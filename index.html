@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Proyecto Supermercado</title>
+	</head>
+	<body>
+		<!-- Crear las etiquetas siguiendo el markup indicado, donde > significa que lo que esta a la izquierda contiene al elemento de la derecha. -->
+		<!-- En caso de utilizarse parentesis es porque los elementos de adentro son hermanos del padre que los precede, y deben ser todos contenidos por el mismo. -->
+		<!-- Los parrafos pueden indicar un texto especifico o bien una cantidad de palabras para colocar como relleno, en cuyo caso se deberia usar lorem ipsum, o bien el atajo de Emmet del VSC que consta de colocar la palabra lorem seguida inmediatamente de una cantidad de palabras y luego presionar tab o enter para crear el texto aleatoriamente. -->
+		<!-- Donde se coloca un punto y una palabra seguido de un elemento es porque se le debe asignar esa palabra como clase a dicho elemento. -->
+
+		<!-- Por ejemplo: // div > h1.titulo.colorRojo "Hola Mundo!" + h2.subtitulo "Soy un subtitulo" // seria: -->
+		<!-- 
+      <div>
+			  <h1 class="titulo colorRojo">Hola Mundo!</h1>
+			  <h2 class="subtitulo">Soy un subtitulo</h2>
+		  </div> -->
+
+		<!-- O bien -->
+		<!--// div > (div > a.link.mayuscula "Link 1") + (div > h4.subtitulo "Subtitulo" + p.parrafo "lorem10") // seria: -->
+		<!-- 
+      <div>
+        <div>
+          <a class="link mayuscula" href="#">Link 1</a>
+        </div>
+        <div>
+          <h4 class="subtitulo">Subtitulo</h4>
+          <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, officia!</p>
+        </div>
+      </div> -->
+
+		<!-- ------------------------------------------------------ -->
+		<!-- ------------------------------------------------------ -->
+
+		<!-- De la siguiente manera completar las siguientes consignas: -->
+
+		<!-- ---------- HTML ---------- -->
+		<!-- 1- header > nav > a.link.link1 "Google" + a.link.link2 "YouTube" + a.link.link3 "Instagram" -->
+		<!-- 2- main > (section > h1.titulo "Supermercado Juancito" + h2.subtitulo2 "Su mejor opcion" + p.parrafo "Soy un parrafo descriptivo y se me debe respetar como tal") + (section > (div.card > h4.subtitulo4 "Titulo articulo 1" + p.parrafo "lorem 40") +  (div.card > h4.subtitulo4 "Titulo articulo 2" + p.parrafo "lorem 50") +  (div.card > h4.subtitulo4 "Titulo articulo 3" + p.parrafo "lorem 30") +  (div.card > h4.subtitulo4 "Titulo articulo 4" + p.parrafo "lorem 30") +  (div.card > h4.subtitulo4 "Titulo articulo 5" + p.parrafo "lorem 30") ) -->
+		<!-- 3- footer > h4.subtitulo4 "Creado por INSERTAR_APELLIDO, INSERTAR_NOMBRE - Año 2021" + button.link.btn.orange "Volver al inicio" -->
+
+		<!-- ---------- CSS ---------- -->
+		<!-- Crear el archivo de estilos, enlazarlo y escribir las clases con sus respectivas propiedades para lograr lo siguiente: -->
+		<!-- 1- Que todos los enlaces (etiqueta a) tengan un color blanco, pero que el link1 tenga fondo naranja, el link2 azul y el link3 negro. Estos deben redirigir a Google, YouTube e Instagram respectivamente -->
+		<!-- 2- Que el body tenga fondo beige, el header fondo rojo, el main fondo naranja y el footer fondo azul -->
+		<!-- 3- Que todos los elementos tengan la fuente Courier, titulos h1 de tamaño 30px, subtitulos h2 24px, h4 20px y parrafos de 16px. El boton un tamaño de 24px -->
+		<!-- 4- Que el titulo de la pagina tenga un borde blanco de 3px arriba y a la derecha y 6px abajo y a la izquierda; tambien un margen hacia todos lados de 50px y un padding de 30px lateralmente y de 20px verticalmente-->
+		<!-- 5- La clase orange debe darle un fondo naranja y un color blanco, 20px lateralmente y 10px verticalmente -->
+		<!-- 6- Que todos los subtitulos (tanto los h2 como los h4) esten subrayados y tengan un color (blanco o negro segun corresponda) que contraste con el fondo asignado. -->
+		<!-- 7- Que todos los parrafos esten justificados y en italica -->
+		<!-- 8- Que todos los parrafos dentro de divs con clase card tengan un padding arriba y abajo de 20px y de 15px a los costados. El resto de los parrafos deben tener 25px en todas direcciones -->
+		<!-- 9- Que todos los titulos y subtitulos esten alineados centralmente -->
+
+		<!-- ---------- JS ---------- -->
+		<!-- Mapear un nuevo array llamado articulosModificados donde se incremente el precio de venta y el costo de los articulos en un 10% (multiplicar el precio y el costo por 1.1) pero solamente para aquellos articulos que no tienen descuento (aquellos con la propiedad tieneDescuento en false). Tener en cuenta la estructura del objeto (con objetos anidados) para acceder correctamente a la propiedad deseada y modificarla correctamente -->
+		<!-- Modificar en dicho array el numero de id agregandole dos ceros despues del numero que traen (si es 9 debe quedar 90) -->
+		<!-- Mostrar por consola el array original y el array modificado -->
+		<!-- Mostrar por consola un string por cada uno de los articulos, con la siguiente estructura (los items entre corchetes son el valor que se desea conocer de cada articulo): 'ID: [id] - Item: [descripcion] - Precio compra: [costo] - Precio Venta: [precio] -->
+	</body>
+</html>
