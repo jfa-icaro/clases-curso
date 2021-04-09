@@ -1,0 +1,10 @@
+@use 'sass/abstracts/index' as *;
+@use 'sass/components/header';
+@use 'sass/components/main';
+
+body {
+	background-color: $background-color;
+	font-family: "Open Sans", sans-serif;
+	color: $whitish;
+	min-height: 100vh;
+}

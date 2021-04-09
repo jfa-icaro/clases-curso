@@ -1,0 +1,28 @@
+@use '../abstracts/index' as *;
+
+// Main
+
+.main {
+	margin-top: 50px;
+	min-height: 90vh;
+
+	&_content {
+		max-width: 1200px;
+		margin: 0 auto;
+
+		&_subtitle {
+			color: $primary-color;
+			text-align: center;
+			font-size: 50px;
+			font-weight: 800;
+			margin-bottom: 50px;
+		}
+
+		&_paragraph {
+			columns: 2;
+			font-size: 20px;
+			text-align: justify;
+			column-gap: 50px;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+@use '../abstracts/index' as *;
+
+// Header
+
+.header {
+	background-color: $background-color-strong;
+
+	&_content {
+		// background-color: red;
+		max-width: 1200px;
+		margin: 0 auto;
+		height: 100px;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		h1 {
+			color: $primary-color;
+			font-weight: 300;
+		}
+
+		&_links {
+			width: 30%;
+			display: flex;
+			justify-content: space-between;
+
+			a {
+				color: $whitish;
+				text-decoration: none;
+				font-weight: 600;
+
+				&:hover {
+					color: $primary-color;
+				}
+			}
+		}
+	}
+}
