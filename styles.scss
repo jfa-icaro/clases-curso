@@ -1,6 +1,7 @@
 @use 'sass/abstracts/index' as *;
 @use 'sass/components/header';
 @use 'sass/components/main';
+@use 'sass/components/footer';
 
 body {
 	background-color: $background-color;

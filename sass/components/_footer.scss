@@ -1,0 +1,14 @@
+@use '../abstracts' as *;
+
+.footer {
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $background-color-strong;
+
+	h4 {
+		font-size: 24px;
+		font-weight: 300;
+	}
+}

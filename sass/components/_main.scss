@@ -2,9 +2,29 @@
 
 // Main
 
+.oculto {
+	opacity: 0;
+}
+
+.mostrar {
+	animation: aparecer forwards 3000ms;
+}
+
+@keyframes aparecer {
+	0% {
+		opacity: 0;
+		transform: translate(500px, 500px);
+	}
+
+	100% {
+		opacity: 100%;
+		transform: translate(0, 0);
+	}
+}
+
 .main {
 	margin-top: 50px;
-	min-height: 90vh;
+	min-height: 100vh /* calc(100vh - 220px) */;
 
 	&_content {
 		max-width: 1200px;
