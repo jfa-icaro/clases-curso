@@ -1,0 +1,1 @@
+.contenedor{background-color:green;display:flex;height:500px;justify-content:space-between;align-items:center}.item{background-color:red;padding:10px;width:200px;border:1px solid #000}.item2{justify-self:flex-start;align-self:flex-start}
