@@ -1,2 +1,32 @@
-body {
+@use '../variables/variables' as *;
+
+main {
+  //   margin-bottom: 13.5rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: calc(100vh - 7.4rem);
+
+  background-image: url("../../../assets/img/hero_moon.jpg");
+  background-position: -50rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__content {
+    display: flex;
+    max-width: 40%;
+    flex-direction: column;
+    margin-left: 10rem;
+
+    &--title {
+      font-size: 7rem;
+    }
+
+    &--description {
+      font-size: 2.2rem;
+    }
+  }
 }

@@ -1,3 +1,82 @@
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: calc(100vh - 7.4rem);
+  background-image: url("../../../assets/img/hero_moon.jpg");
+  background-position: -50rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero__content {
+  display: flex;
+  max-width: 40%;
+  flex-direction: column;
+  margin-left: 10rem;
+}
+.hero__content--title {
+  font-size: 7rem;
+}
+.hero__content--description {
+  font-size: 2.2rem;
+}
+
+.header__container {
+  background-color: #2d3047;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.header__logo {
+  transition: all 0.3s ease-in-out;
+}
+.header__logo:hover {
+  color: #ff9b71;
+}
+.header__nav {
+  display: flex;
+  gap: 4rem;
+}
+.header__nav--link {
+  transition: all 0.3s ease-in-out;
+}
+.header__nav--link:hover {
+  color: #ed217c;
+}
+
+.footer__container {
+  background-color: #2d3047;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer__info {
+  width: 70%;
+}
+.footer__info--title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.footer__info--text {
+  text-align: justify;
+}
+.footer__links {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
 *,
 *::before,
 *::after {
@@ -12,4 +91,42 @@ html {
 
 body {
   min-height: 100vh;
+  background-color: #1b2021;
+  color: #eee;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 2.2rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+h6,
+p {
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
 }

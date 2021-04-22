@@ -1,0 +1,31 @@
+@use '../variables/variables' as *;
+
+.header__container {
+  background-color: $background-color-2;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+
+  &__logo {
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    gap: 4rem;
+    &--link {
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+}
