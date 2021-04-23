@@ -1,9 +1,5 @@
 @use '../variables/variables' as *;
 
-main {
-  //   margin-bottom: 13.5rem;
-}
-
 // -------------HERO
 
 .hero {
@@ -66,12 +62,6 @@ main {
     &:hover {
       transform: scale(1.05);
       background-color: rgba($background-color-2, 0.5);
-    }
-
-    &__titulo {
-    }
-
-    &__nombre {
     }
 
     &__mensaje {
