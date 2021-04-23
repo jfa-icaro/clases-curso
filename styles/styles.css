@@ -21,6 +21,98 @@
   font-size: 2.2rem;
 }
 
+.testimoniales__container {
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5rem;
+}
+
+.testimoniales {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10rem;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+}
+.testimoniales__subtitulo {
+  font-size: 5rem;
+}
+.testimoniales .testimonio {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  padding: 2rem 0;
+  border-radius: 1rem;
+}
+.testimoniales .testimonio:hover {
+  transform: scale(1.05);
+  background-color: rgba(45, 48, 71, 0.5);
+}
+.testimoniales .testimonio__mensaje {
+  text-align: justify;
+  padding: 0 3rem;
+}
+
+.info {
+  padding: 10rem 0;
+  display: flex;
+  gap: 5rem;
+}
+.info__container {
+  background-color: #eee;
+  color: #111;
+}
+.info__left--img {
+  background-image: url("../../../assets/img/info_moon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50rem;
+  height: 40rem;
+  border-radius: 10rem 0 10rem 0;
+}
+.info__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info__right--text {
+  width: 80%;
+  font-size: 2rem;
+  line-height: 2;
+  color: #2d3047;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 7.5rem;
+  right: 5rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  z-index: 999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #ed217c;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+.go-top p {
+  color: #eee;
+  font-size: 2rem;
+  text-align: center;
+}
+.go-top:hover {
+  background-color: rgba(237, 33, 124, 0.5);
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
 .header__container {
   background-color: #2d3047;
 }
@@ -129,4 +221,17 @@ p {
 .container {
   max-width: 120rem;
   margin: 0 auto;
+}
+
+.accent {
+  color: #ed217c;
+}
+
+.effect1 {
+  transform: translate(-100%, 50%);
+  transition: all 0.75s ease-in-out;
+}
+
+.effect2 {
+  transform: translate(0, 0);
 }

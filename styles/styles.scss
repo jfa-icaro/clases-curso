@@ -54,3 +54,16 @@ p {
   max-width: 120rem;
   margin: 0 auto;
 }
+
+.accent {
+  color: $accent-color;
+}
+
+.effect1 {
+  transform: translate(-100%, 50%);
+  transition: all 0.75s ease-in-out;
+}
+
+.effect2 {
+  transform: translate(0, 0);
+}
