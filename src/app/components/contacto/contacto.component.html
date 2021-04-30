@@ -1,0 +1,18 @@
+<div class="contacto__container">
+  <div class="contacto">
+    <button (click)="toggleForm()">
+      {{ mostrarForm ? "Ocultar Boton" : "Mostrar Boton" }}
+    </button>
+    <form *ngIf="mostrarForm">
+      <fieldset>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" />
+        <br />
+        <label for="lastName">Apellido</label>
+        <input type="text" id="lastName" />
+        <br />
+        <button>Enviar</button>
+      </fieldset>
+    </form>
+  </div>
+</div>

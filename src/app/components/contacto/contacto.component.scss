@@ -1,0 +1,25 @@
+.contacto {
+  &__container {
+    background-color: #ddd;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+
+form {
+  fieldset {
+    padding: 20px;
+  }
+}
+
+button {
+  font-size: 30px;
+  padding: 20px 30px;
+}

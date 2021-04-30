@@ -1,0 +1,25 @@
+.productos {
+  &__container {
+    background-color: #ddd;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+
+.producto {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #fff;
+
+  .infoConfidencial {
+    background: yellow;
+  }
+}

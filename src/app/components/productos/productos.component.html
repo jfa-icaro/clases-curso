@@ -1,0 +1,13 @@
+<div class="productos__container">
+  <div class="productos container">
+    <div class="producto" *ngFor="let producto of productos">
+      <h4>{{ producto.titulo }}</h4>
+      <h6 class="infoConfidencial" *ngIf="producto.extraContent">
+        {{ producto.extraContent }}
+      </h6>
+      <p>
+        {{ producto.content }}
+      </p>
+    </div>
+  </div>
+</div>
