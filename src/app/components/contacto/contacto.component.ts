@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contacto.component.scss'],
 })
 export class ContactoComponent implements OnInit {
-  mostrarForm = false;
+  mostrarForm = true;
   textoEstadoBoton = 'Mostrar Boton';
   cantInputs: number;
+  name = '';
 
   toggleForm(): void {
     this.mostrarForm = !this.mostrarForm;

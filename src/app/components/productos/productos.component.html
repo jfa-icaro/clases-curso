@@ -1,12 +1,14 @@
 <div class="productos__container">
   <div class="productos container">
     <div class="producto" *ngFor="let producto of productos">
-      <h4>{{ producto.titulo }}</h4>
+      <h4>
+        {{ producto.titulo ? producto.titulo : "No se registra un titulo" }}
+      </h4>
       <h6 class="infoConfidencial" *ngIf="producto.extraContent">
-        {{ producto.extraContent }}
+        {{ producto.extraContent ? producto.extraContent : "" }}
       </h6>
       <p>
-        {{ producto.content }}
+        {{ producto.content ? producto.content : "No existe contenido aun" }}
       </p>
     </div>
   </div>

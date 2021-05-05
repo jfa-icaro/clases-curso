@@ -1,0 +1,22 @@
+.footer {
+  background: navy;
+  color: #fff;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+a {
+  padding: 10px;
+  color: #fff;
+}
+
+h4 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}

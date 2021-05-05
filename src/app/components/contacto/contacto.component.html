@@ -1,17 +1,20 @@
 <div class="contacto__container">
   <div class="contacto">
-    <button (click)="toggleForm()">
-      {{ mostrarForm ? "Ocultar Boton" : "Mostrar Boton" }}
+    <button
+      (click)="toggleForm()"
+      [ngClass]="mostrarForm ? 'color-blue' : 'color-red'"
+    >
+      {{ mostrarForm ? "Ocultar Formulario" : "Mostrar Formulario" }}
     </button>
     <form *ngIf="mostrarForm">
       <fieldset>
-        <label for="name">Nombre</label>
+        <label class="color-blue" for="name">Nombre</label>
+        <br />
         <input type="text" id="name" />
         <br />
-        <label for="lastName">Apellido</label>
-        <input type="text" id="lastName" />
         <br />
-        <button>Enviar</button>
+        <!-- <button>Enviar</button> -->
+        <h3>{{ name }}</h3>
       </fieldset>
     </form>
   </div>
