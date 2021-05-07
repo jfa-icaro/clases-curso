@@ -1,0 +1,7 @@
+<input type="text" value="hola" id="inputNombre" />
+<button (click)="searchPokemon('576')">Buscar</button>
+<ul>
+  <li *ngFor="let pokemon of pokemonList">
+    {{ pokemon.name }}
+  </li>
+</ul>
