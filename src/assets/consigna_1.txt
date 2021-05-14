@@ -1,0 +1,10 @@
+Crear una Single Page Application (SPA) utilizando Angular CLI y aplicando los conceptos vistos a lo largo de la cursada.
+Debe cumplir:
+
+1. Tener una estructura con al menos cuatro rutas distintas (utilizando el modulo de ruteo de Angular).
+2. Al menos una de las rutas debe tener un formulario de contacto, donde se soliciten distintos datos al usuario y estos se alojen en un objeto de TS que debera ser impreso por consola al presionar el boton de envio (deben usarse los conceptos vistos sobre Reactive Forms).
+3. Al menos una de las rutas debe contener una grilla con distintos items (productos, tarjetas, etc. por ejemplo) utilizando las directivas estudiadas para tal fin, y estos datos deben provenir de una API publica.
+4. Que algun componente hijo (alguno de los renderizados en una ruta puntual) se comunique con el header y realice algun cambio, como por ejemplo el color de fondo.
+5. Ponerse en practica al menos en dos componentes un servicio de interaccion entre si (es decir, no utilizando @Input y @Output, sino utilizando un servicio para tal fin)
+6. Prestarse atencion a cuestiones esteticas y de diseño minimas, como las vistas en clase, como flexbox o BEM por ejemplo.
+7. Presentar un codigo lo mas limpio y legible posible, intentando utilizar las formas mas modernas vistas en clases.
